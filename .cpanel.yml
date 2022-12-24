@@ -37,5 +37,5 @@ deployment:
         php artisan key:generate &>> deploy.log
       else
         php artisan optimize &>> deploy.log
-        php artisan migrate --force &>> deploy.log
+        # php artisan migrate --force &>> deploy.log
       fi
